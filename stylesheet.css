@@ -1,0 +1,110 @@
+
+
+div {
+  display: block;
+}
+
+h1
+ {
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 1;
+   color: white;  
+}
+
+.container-one {
+  display:grid;
+  grid-template-columns: 100%; 
+}
+
+    
+.boxone{
+    background-color: lightblue;
+    padding: 35px;
+    text-align: center;
+    }
+
+.container-two {
+  display:grid;
+  grid-template-columns:50% 50%; 
+  padding: 0px;
+}
+
+.boxtwo {
+ background-color: pink;
+ padding: 35px;
+ text-align: center;
+}
+
+.boxthree {
+background-color: orange;
+padding: 35px;
+text-align: center;
+
+ }
+
+.container-three {
+  display:grid;
+  grid-template-columns: 75% 25%;
+  padding: 0px;
+}
+
+.boxfour {
+background-color: olive;
+padding: 35px;
+text-align: center;
+}
+
+.boxfive {
+  background-color:lightskyblue;
+  padding: 35px;
+  text-align: center;
+}
+
+.container-four {
+display: grid;
+grid-template-columns: 33.3% 33.3% 33.3%;
+padding: 0px
+}
+
+
+.boxsix {
+  background-color:pink;
+  padding: 35px;
+  text-align: center;
+}
+
+.boxseven {
+  background-color:orange;
+  padding: 35px;
+  text-align: center;
+}
+
+.boxeight {
+  background-color:pink;
+  padding: 35px;
+  text-align: center;
+}
+
+.container-five {
+  display: grid;
+  grid-template-columns: 100%
+  padding: 0px
+  }
+
+.boxnine {
+    background-color:olive;
+    padding: 35px;
+    text-align: center;
+  }
+
+  .container-six {
+ display: grid;
+ grid-template-columns: 100%;
+ padding: 0px;
+  }
+
+  .boxten {
+    background-color:lightskyblue;
+    padding:5px;
+    text-align: center;
+  }
